@@ -1,0 +1,236 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15% 3% 15%;
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+
+.zore-icon {
+  position: absolute;
+  right: 47%;
+}
+
+.zore-icon-img1 {
+  height: 100px;
+  width: 100px;
+  margin-top: -50px;
+}
+
+.Search-bar {
+  width: 100%;
+  animation-duration: 1.5s;
+  animation-name: slidein;
+  background-image: url("https://wallpapercave.com/wp/wp2771916.jpg");
+  font-family: 'RocknRoll One', sans-serif;
+  text-align: center;
+}
+
+.home-page-top {
+  background-color: #d8e3e7;
+  width: 100%;
+  height: 400px;
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+
+.home-page-inside {
+  background-color: #ff4c68;
+  width: 500px;
+  height: 250px;
+  position: absolute;
+  right: 50%;
+  margin-top: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+#Discounts-title {
+  font-size: 25px;
+  position: absolute;
+  right: 115px;
+  background-color: #51c4d3;
+  margin-top: 10px;
+  border-style: groove;
+  border-width: 2px;
+  border-color: red;
+}
+
+#Discounts-title:hover {
+  background-color: #ff4c68;
+}
+
+.Discounts-text {
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+p {
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+.Discounts-button {
+  position: relative;
+  right: -200px;
+  top: -20px;
+}
+
+.hr-zore {
+  border-top: 2px solid #1b1717;
+}
+
+.fav-products {
+  margin: 100px auto 100px auto;
+  width: 100%;
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+
+.products {
+  width: 15.625rem;
+  height: 15.625rem;
+}
+
+.products:hover {
+  transform: scale(1.2);
+  transition: transform .2s;
+}
+
+h1 {
+  font-family: 'Coda Caption', sans-serif;
+  text-align: center;
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  background-color: #ff4c68;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  text-align: center;
+}
+
+.price-product {
+  color: green;
+  position: relative;
+  left: ;
+}
+
+.zore-prod {
+  display: inline-block;
+  padding: 10px;
+}
+
+.zore-shop {
+  margin: 200px auto 200px auto;
+  align-items: center;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+.shop-title {
+  background-color: #ff4c68;
+}
+
+.zore-prod-shop {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.filter-box-shop {
+  background-color: #ff4c68;
+  position: absolute;
+  right: 90px;
+  width: 150px;
+  height: 1050px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.Search-bar-shop {
+  width: 100px;
+  position: absolute;
+  right: 30px;
+  margin-top: 20px;
+  font-family: 'Coda Caption', sans-serif;
+}
+
+.zore-footer {
+  background-color: #ff4c68;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+.footer-link-1 {
+  font-size: 50px;
+  color: black;
+  position: absolute;
+  right: 49%;
+  margin-top: 15px;
+}
+
+.footer-link-1:hover {
+  color: pink;
+}
+
+.footer-link-2 {
+  font-size: 50px;
+  color: black;
+  position: absolute;
+  right: 44%;
+  margin-top: 15px;
+}
+
+.footer-link-2:hover {
+  color: pink;
+}
+
+.footer-link-3 {
+  font-size: 50px;
+  color: black;
+  position: absolute;
+  right: 54%;
+  margin-top: 15px;
+}
+
+.footer-link-3:hover {
+  color: pink;
+}
+
+.copyright-footer {
+  padding: 80px 0;
+}
